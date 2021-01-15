@@ -4,6 +4,14 @@ created by Caitlyn Jameson
 A playable Sudoku Game
 
 
+Description of Sudoku
+Sudoku is a game of logic. The aim of Sudoku is to complete a puzzle using a sequence of numbers. The puzzle takes place on a grid, in this case, a 9x9 grid. There are 9 columns, 9 rows and 9 3x3 sections. At the start of the game, each section contains a combination of empty squares and printed squares. The numbers provided are part of the solution, and you the player must fill in the rest by figuring out which number (from 1-9) belongs in that square. 
+
+Sudoku is considered to be NP-Complete. This means that given a solution, it should be verified in polynomial time. 
+
+The Rules 
+Every row, every column, and every 3x3 section must contain the numbers 1 to 9, with no duplications. The game is complete when the board is completely filled in. A winning solution has no repeating numbers in a row, column, or 3x3 section.
+
 This game has a hard coded board instance where some numbers are given to you.
 To run this program, use the command: 'python3 sudoku.py'
 The program includes a main() function that allows it to be run as a script.
